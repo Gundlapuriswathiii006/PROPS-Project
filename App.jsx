@@ -2,56 +2,11 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Componentsix from './Components/Componentsix'
-/*import Componentone from './Components/Componentone'
-/*import SITARAMAM from './Components/Componenttwo'*/
-import './App.css'
 import Componentfive from './Components/Componentfive'
-/*import { Header, Menu, Location, Footer } from './Components/Componentthree'*/
 
 
 function App() {
   const [count, setCount] = useState(0)
-
-  /*return (
-    
-      /* <div><h1>HELLO INDIA !!</h1>
-       <img src="https://.pinimg.com/736x/98/4a/10/984a10ae157f96bbe6c2afcde96bf3d7.jpg" alt="sorry" />
-      <Componentone/>
-  </div>*/
-     /*<div><h1>SITA RAMAM</h1>
-     <img src="https://m.media-amazon.com/images/M/MV5BMTU2YjYwMjItMjA4Yy00OTY3LThkODMtNmZkOWU0YjU1NDFlXkEyXkFqcGc@._V1_.jpg" className='small-image' alt="image"/>
-     <SITARAMAM/>
-     </div>*/
-    /*<div><h1>SITA RAMAM</h1>
-    
-     <SITARAMAM/>
-     </div> */
-     /*<div>
-      <>
-      
-      <Header />
-      <Menu />
-      <Location />
-      <Footer />
-      </>
-     
-     
-     </div>
-
-  )*/
-/*return(
-
-    <div><h1>Different Roles </h1>
-    <Componentsix name="allu-arjun" Role="hero" image="https://st1.bollywoodlife.com/wp-content/uploads/2023/03/allu-arjun1-1.jpg"/>
-    <Componentsix name="Rashmika" Role="heroine" image="https://i.pinimg.com/736x/b2/28/0a/b2280a40e4f0697c64b511ecc421f713.jpg"/>
-    <Componentsix name="Shekhawat" Role="vilan" image="https://images.bhaskarassets.com/thumb/730x0/web2images/521/2024/05/27/202289173338239fgaz2ptxoauvxth1715169474_1716811739.jpg"/>
-   
-    </div>
-    )
-}
-export default App;
-*/
 return(
   <div><h1 className='books'>MY BOOKS</h1>
   <h2 className='book'>BOOK 1</h2>
